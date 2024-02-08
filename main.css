@@ -105,3 +105,27 @@ section h2 {
 #economy .articles article a {
     background-color: #ff9f1a;
 }
+
+section h2 {
+    font-size: 32px;
+}
+
+#Carros {
+    background-color:aquamarine
+}
+
+#Carros .articles article a {
+    background-color: #779280;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#Games {
+    background-color:rgb(197, 59, 59)
+}
+
+#Games .articles article a {
+    background-color: #c433c4;
+}
