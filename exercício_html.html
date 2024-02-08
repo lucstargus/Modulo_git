@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +7,19 @@
     <title>Formulario</title>
 </head>
 <body>
-    <label for="nome">Insira seu nome:</label>
-    <input type="text" placeholder="Nome Completo" id="nome" />
-    <br />
-    <label for="email">Insira seu email:</label>
-    <input type="email" placeholder="Seu melhor email" id="email" />
-    <br />
-    <label for="senha">Insira sua senha:</label>
-    <input type="password" id="senha" minlength="8" required placeholder="no minimo 8 caracteres" />
-    <button type="submit">
-        Enviar
-    </button>
+    <form>    
+        <label for="nome">Nome:</label>
+        <input type="text" placeholder="Nome Completo" id="nome" />
+        <br />
+        <label for="email">E-mail:</label>
+        <input type="email" placeholder="Seu email" id="email" />
+        <br />
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" minlength="8" required placeholder="no minimo 8 caracteres" />
+        <br />
+        <button type="submit">
+            Cadastrar
+        </button>
+    </form>
 </body>
 </html>
