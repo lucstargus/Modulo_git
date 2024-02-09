@@ -111,11 +111,11 @@ section h2 {
 }
 
 #Carros {
-    background-color:aquamarine
+    background-color:rgb(17, 110, 5)
 }
 
 #Carros .articles article a {
-    background-color: #779280;
+    background-color: #0d3d1c;
 }
 
 section h2 {
@@ -123,9 +123,9 @@ section h2 {
 }
 
 #Games {
-    background-color:rgb(197, 59, 59)
+    background-color:rgb(71, 43, 231)
 }
 
 #Games .articles article a {
-    background-color: #c433c4;
+    background-color: #6883fc;
 }
